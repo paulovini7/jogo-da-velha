@@ -1,0 +1,84 @@
+/* resetar elementos da pagina - boas praticas em css */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, 
+    blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, 
+    img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, 
+    i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, 
+    caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, 
+    embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+    ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* -----------------------------------------------------------*/ 
+body{
+  background-color: aqua;
+}
+/*Formatando a regiao do mostrador e deixando centralizado */ 
+#mostrador {
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 252px;
+  height: 80px;
+
+  margin-top: 60px;
+
+}
+/*formatando regiao interna do mostrador e dando float a esquerda para dividir o paragrafo da img */
+#mostrador p{
+  display: inline;
+  float: left;
+  margin-top: 10px;
+  background-color:aliceblue ;
+  border-radius: 5px;
+  padding: 4px;
+}
+/*formatação basica da img */
+#mostrador img{
+  border: 0;
+  height: 50px;
+  margin-left: 10px;
+  align-items: center;
+  border-radius: 5px;
+}
+/*deixando a div tabuleiro com widht e height iguais considerando o tamanho dos espaços com suas bordas de 2px */
+.tabuleiro {
+  width: 252px;
+  height: 252px;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-right: auto;
+
+}
+/*formatar os espaçoes internos dentro do tabuleiro*/
+.espaco {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000000;
+  float: left;
+  align-items: center;
+  background-color: aliceblue;
+}
+/*limitando o tamanho das img dentro de cada div para se adequarem */
+.espaco img{
+  width: 79px;
+  height: 79px;
+}
+/*formatar a div do botao para deixa - la responsiva */
+#butao {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65px;
+  margin-top: 10px;
+}
+/*regiao para formatar o botao de refresh */
+#refresh {
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#ffffff ;
+
+}
