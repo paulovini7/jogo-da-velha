@@ -7,4 +7,4 @@ Cada parte do codigo esta devidamente comentada e identada de forma que ajude a 
  
 Escreva o codigo com paciência. Deixe o JavaScript para a parte final, de forma que a estilização já esteja feita. 
 
-
+Enjoy https://paulovini7.github.io/jogo-da-velha/
